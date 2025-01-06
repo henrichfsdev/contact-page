@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form action="">
+            <h1>Contact Form</h1>
+            <div id="name-last-name">
+                <div class="label-input">
+                    <label for="name">Name *</label>
+                    <input type="text" name="name" id="name" required>                    
+                </div>
+                <div class="label-input">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname">                     
+                </div>
+            </div>
+
+            <div class="label-input">
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="label-input">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <div class="label-input">
+                <label for="message">Message *</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button>Send Message</button>
+        </form>
+        <div id="bg-image"></div>
+    </main>
+</body>
+</html>
